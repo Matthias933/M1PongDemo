@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/at.bachmann.cdt.config.c.compiler5.5.32391652/CPATH/delimiter=;
+environment/buildEnvironmentInclude/at.bachmann.cdt.config.c.compiler5.5.32391652/CPATH/operation=remove
+environment/buildEnvironmentInclude/at.bachmann.cdt.config.c.compiler5.5.32391652/C_INCLUDE_PATH/delimiter=;
+environment/buildEnvironmentInclude/at.bachmann.cdt.config.c.compiler5.5.32391652/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/at.bachmann.cdt.config.c.compiler5.5.32391652/append=true
+environment/buildEnvironmentInclude/at.bachmann.cdt.config.c.compiler5.5.32391652/appendContributed=true
+environment/buildEnvironmentLibrary/at.bachmann.cdt.config.c.compiler5.5.32391652/LIBRARY_PATH/delimiter=;
+environment/buildEnvironmentLibrary/at.bachmann.cdt.config.c.compiler5.5.32391652/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/at.bachmann.cdt.config.c.compiler5.5.32391652/append=true
+environment/buildEnvironmentLibrary/at.bachmann.cdt.config.c.compiler5.5.32391652/appendContributed=true

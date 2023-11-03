@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="at.bachmann.cdt.gdb.launch.moduleLaunchType">
+    <stringAttribute key="configFile" value=""/>
+    <booleanAttribute key="installPermanently" value="false"/>
+    <stringAttribute key="installationMode" value="PERMANENT"/>
+    <intAttribute key="lineNumber" value="0"/>
+    <mapAttribute key="moduleConfig">
+        <mapEntry key="BaseParms.DebugMode" value="0x0"/>
+        <mapEntry key="BaseParms.ModuleIndex" value="0"/>
+        <mapEntry key="BaseParms.ModuleName" value="m1stream.m"/>
+        <mapEntry key="BaseParms.ModulePath" value="/cfc0/app/"/>
+        <mapEntry key="BaseParms.Partition" value="2"/>
+        <mapEntry key="BaseParms.Priority" value="130"/>
+        <mapEntry key="ControlTask.CycleTime" value="10.000000"/>
+        <mapEntry key="ControlTask.Priority" value="90"/>
+        <mapEntry key="ControlTask.TimeBase" value="Tick"/>
+        <mapEntry key="ControlTask.WatchdogRatio" value="0"/>
+        <mapEntry key="PaddleConfig.PaddleConfig1.cardNb" value="4"/>
+        <mapEntry key="PaddleConfig.PaddleConfig1.channel" value="1"/>
+        <mapEntry key="PaddleConfig.PaddleConfig2.cardNb" value="4"/>
+        <mapEntry key="PaddleConfig.PaddleConfig2.channel" value="5"/>
+    </mapAttribute>
+    <stringAttribute key="moduleFilename" value="C:\Users\MSBR\Desktop\lubl\git1\M1StreamServer\Bachmann_5.5_Configuration\m1stream.m"/>
+    <intAttribute key="moduleIdentity" value="0"/>
+    <stringAttribute key="moduleInstanceName" value="M1STREAM"/>
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="C:\bachmann\SolutionCenter\V2.73M100-MS29SIO_0.3.0\cutils\GnuTools-4.1.2\bin\gdb.exe"/>
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value="C:\bachmann\SolutionCenter\V2.73M100-MS29SIO_0.3.0\cutils\GnuTools-4.1.2\bin\.gdbinit"/>
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.HOST" value="127.0.0.1"/>
+    <booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="true"/>
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.PORT" value="0"/>
+    <booleanAttribute key="org.eclipse.cdt.dsf.gdb.REMOTE_TCP" value="true"/>
+    <booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="true"/>
+    <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="remote"/>
+    <booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="false"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="C:/Users/MSBR/Desktop/lubl/git1/M1StreamServer/Bachmann_5.5_Configuration/m1stream.dbo"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="M1StreamServer"/>
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/M1StreamServer"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;"/>
+    <booleanAttribute key="overrideConfig" value="false"/>
+    <stringAttribute key="process_factory_id" value="org.eclipse.cdt.dsf.gdb.GdbProcessFactory"/>
+    <stringAttribute key="profileName" value=""/>
+    <stringAttribute key="projectName" value="M1StreamServer"/>
+    <booleanAttribute key="sendEOI" value="true"/>
+    <stringAttribute key="sequence" value="RUN"/>
+    <stringAttribute key="targetName" value="/Lehrling/MC210.vxworks"/>
+    <booleanAttribute key="targetSelectionOnLaunch" value="false"/>
+</launchConfiguration>

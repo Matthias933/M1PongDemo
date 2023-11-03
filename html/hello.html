@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <!--
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="canonical" href="https://html5-templates.com/" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+         Place favicon.ico in the root directory 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        -->
+    </head>
+    <body>
+        <!-- Add your site or application content here -->
+        <p>HTML <strong>boilerplate</strong> to start a project.</p>
+
+        <script>
+        var onMessageCalls = 0;
+        var lastMessage;
+			var connection = new WebSocket('ws://10.204.86.60:4567');
+			// When the connection is open, send some data to the server
+			connection.onopen = function () {
+			  connection.send('Ping'); // Send the message 'Ping' to the server
+			};
+			
+			// Log errors
+			connection.onerror = function (error) {
+			  console.log('WebSocket Error ' + error);
+			};
+			
+			// Log messages from the server
+			connection.onmessage = function (e) {
+			  console.log('Server: ' + e.data);
+			  onMessageCalls++;
+			  lastMessage = e.data;
+			};			
+        </script>
+    </body>
+</html>
